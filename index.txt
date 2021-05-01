@@ -7,6 +7,10 @@
     <title>HW3</title>
   </head>
   <body>
+    
+	<CENTER><IMG SRC=https://coverfiles.alphacoders.com/408/40867.png width="80%"></CENTER>
+<BR>
+
     <CENTER><h1><B>What is this Website for?<B></h1></CENTER>
 <BR>
     <h4><CENTER><A HREF=https://hackmd.io/iCGRVSU8RwmJqo423MXygw?view>109-2 NTUEE 計算機概論 @EE1003 #HW3 交作業用</A></CENTER></h4>
@@ -58,7 +62,30 @@ Some viewers have asserted that Sheldon's personality is consistent with Asperge
 	<CENTER><h3>AKA 矽谷鋼鐵人</h3></CENTER>
 	
 
-	<audio ref='themeSong' src="https://raw.githubusercontent.com/huanciou/huanciou.github.io/blob/main/kalaido.mp3" autoPlay loop></audio>
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+	<iframe width="1" height="1" src="https://www.youtube.com/embed/7ZjKJuhnRsw?autoplay=1&loop=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<CENTER><IMG SRC=https://coverfiles.alphacoders.com/569/56960.png width="80%"></CENTER>
 	
   </body>
 </html>
