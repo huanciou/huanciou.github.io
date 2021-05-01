@@ -1,0 +1,18 @@
+<style type="text/css">
+a:link{
+//設定還沒有瀏覽過的連結
+text-decoration:none;
+color:#0000FF
+background-color:#ffffff;
+}
+a:visited {
+//設定已經瀏覽過的連結
+color:#00008B;
+Background-color:blue;
+}
+a:hover {
+//設定滑鼠移經的連結
+text-decoration:underline;
+Color:red;
+}
+</style>
