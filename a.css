@@ -2,13 +2,11 @@
 a:link{
 //設定還沒有瀏覽過的連結
 text-decoration:none;
-color:#0000FF
-background-color:#ffffff;
+Color:blue;
 }
 a:visited {
 //設定已經瀏覽過的連結
-color:#00008B;
-Background-color:blue;
+Color:#000080;
 }
 a:hover {
 //設定滑鼠移經的連結

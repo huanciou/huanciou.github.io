@@ -10,11 +10,39 @@
     
 	<CENTER><IMG SRC=https://coverfiles.alphacoders.com/408/40867.png width="80%"></CENTER>
 <BR>
-  <CENTER><audio controls="controls" autoplay="autoplay">
-  <source src="kalaido.mp3" type="audio/mpeg"/>
-Your browser does not support the audio element.
-</audio></CENTER>
+  
+	<CENTER><audio controls="controls" autoplay="autoplay">
+  	<source src="kalaido.mp3" type="audio/mpeg"/>
+	</audio></CENTER>
+	<CENTER><h4><font color="red"> Google Chrome does not support audio autoplay.</font></h4></CENTER>
+
 <BR>
+
+<p><CENTER>&nbsp &nbsp ＤＡＴＥ：<span id="date"></span></CENTER></p>
+
+<script>
+var dt = setInterval(date,1000);
+
+function date(){
+	var d = new Date();
+	document.getElementById("date").innerHTML = (("0"+(d.getMonth()+1)).slice(-2)) +"／"+ (("0"+d.getDate()).slice(-2)) +"／"+ (d.getFullYear());
+}
+</script>
+
+<p><CENTER>ＴＩＭＥ：<span id="time"></span></CENTER></p>
+
+<script>
+var tm = setInterval(Timer,1000);
+
+function Timer(){
+	var t = new Date();
+	document.getElementById("time").innerHTML = t.toLocaleTimeString();
+}
+
+</script>
+
+<BR>
+	
     <CENTER><h1><B>What is this Website for?<B></h1></CENTER>
 <BR>
     <h4><CENTER><A HREF=https://hackmd.io/iCGRVSU8RwmJqo423MXygw?view>109-2 NTUEE 計算機概論 @EE1003 #HW3 交作業用</A></CENTER></h4>
@@ -32,11 +60,13 @@ Your browser does not support the audio element.
 	<CENTER><h2>Education</h2></CENTER>
 	<CENTER><h4><IMG SRC=https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png>
 	    Studies <A HREF=https://www.ac.ntu.edu.tw> Agricultural Chemistry</A>
-	    At <A HREF=http://www.fhsh.tp.edu.tw> 國立臺灣大學 National Taiwan University</h4> </A> </CENTER>
+	    At <A HREF=https://www.ntu.edu.tw> 國立臺灣大學 National Taiwan University</h4> </A> </CENTER>
 	<CENTER><h4><IMG SRC=https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png>
-	    Went to <A HREF=https://www.ac.ntu.edu.tw> 台北市立復興高中</h4> </A> </CENTER>
+	    Went to <A HREF=http://www.fhsh.tp.edu.tw> 台北市立復興高中</h4> </A> </CENTER>
 <BR>
 <BR>
+<BR>
+	<CENTER><h1><B>Favorite<B></h1></CENTER>
 <BR>
 	<CENTER><h2><B>TV Shows</B></h2></CENTER>
 <BR>
