@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*font-family: "Ubuntu", sans-serif;*/
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: url(umi027.jpeg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  max-width: 300px;
+  text-align: center;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.profile-card:hover {
+  background-color: rgba(15, 24, 30, 0.8);
+  transform: scale(1) rotate(3deg);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+.card-header {
+  padding: 60px 40px;
+  background-color: rgba(15, 24, 30, 0.7);
+}
+
+.pic {
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(130deg, #74b9ff, #e66767);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+  transform: translateY(-10%);
+}
+
+@keyframes animated-gradient {
+  25% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: right bottom;
+  }
+  75% {
+    background-position: right top;
+  }
+  100% {
+    background-position: left top;
+  }
+}
+.pic img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+  transform: translateY(-20%);
+}
+
+.desc {
+  font-size: 18px;
+  color: #e66767;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sm a {
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: 0.3s linear;
+}
+
+.sm a:hover {
+  color: #e66767;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 50px;
+  color: #e66767;
+  border: 2px solid #e66767;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+
+.contact-btn:hover {
+  background: #e66767;
+  color: #f2f2f2;
+}
+
+.card-footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 10px;
+}
+.numbers {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #e66767;
+}
+
+.item span {
+  display: block;
+  color: #051e2e;
+  font-size: 20px;
+}
+
+.border {
+  width: 1px;
+  height: 30px;
+  background: #bbb;
+  transform: translateX(600%);
+}
