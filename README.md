@@ -1,1 +1,1 @@
-https://huanciou.github.io/huanciou/
+https://huanciou.github.io
