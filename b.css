@@ -45,7 +45,7 @@ input:focus,
 select:focus,
 textarea:focus {
   width: 20rem;
-  transform: scale(1.05);
+  transform: scale(100%);
 }
 
 textarea {
