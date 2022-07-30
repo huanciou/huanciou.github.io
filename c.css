@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  background: url(./chihiro007.jpeg);
+  background-size: cover;
+}
+
+h1 {
+  transform: translateY(-120%);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+form {
+  transform: translateY(-10%);
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 0.5rem;
+  border-radius: 30px;
+  padding: 1.4rem;
+  width: 16rem;
+  background: rgba(233, 229, 229, 0.4);
+  border: 1.5px solid black;
+  transition: 0.75s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  width: 20rem;
+  transform: scale(100%);
+}
+
+textarea {
+  height: 8rem;
+}
+
+button {
+  transform: translateY(100%);
+  margin: 1rem;
+  width: 4rem;
+  height: 1.4rem;
+  cursor: pointer;
+  background: rgba(233, 229, 229, 0.2);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.btn {
+  width: 16rem;
+  transform: translateX(12%);
+}
+button:hover {
+  border-radius: 20px;
+  background-color: rgba(15, 24, 30, 0.6);
+  transform: scale(1.1);
+}
+
+/* 以下為 placeholder 更改顏色方法 */
+
+::placeholder {
+  /* CSS 3 標準 */
+
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Safari */
+
+  color: white;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+
+  color: white;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+
+  color: white;
+
+  opacity: 1;
+}
