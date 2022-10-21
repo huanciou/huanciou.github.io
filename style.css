@@ -98,6 +98,7 @@ body {
 }
 
 .contact-btn {
+  /* calendar added */
   display: inline-flex;
   padding: 10px 16px;
   justify-content: center;
