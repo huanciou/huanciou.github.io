@@ -18,16 +18,16 @@ body {
 }
 
 .profile-card {
-  max-width: 300px;
+  max-width: 280px;
   text-align: center;
   border-radius: 18px;
   overflow: hidden;
 }
 
 .profile-card:hover {
-  background-color: rgba(15, 24, 30, 0.8);
-  transform: scale(1) rotate(3deg);
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+  background-color: rgba(15, 24, 30, 0.4);
+  transform: scale(1.05); /*rotate(0deg);*/
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -83,7 +83,7 @@ body {
 .sm {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 30px 0px 10px 0px;
 }
 
 .sm a {
@@ -98,12 +98,13 @@ body {
 }
 
 .contact-btn {
-  display: inline-block;
-  padding: 12px 50px;
+  display: inline-flex;
+  padding: 10px 16px;
+  justify-content: center;
   color: #e66767;
   border: 2px solid #e66767;
   border-radius: 6px;
-  margin-top: 16px;
+  margin: 25px 6px 0px 6px;
   transition: 0.3s linear;
 }
 
@@ -113,7 +114,7 @@ body {
 }
 
 .card-footer {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.55);
   padding: 10px 10px;
 }
 .numbers {
