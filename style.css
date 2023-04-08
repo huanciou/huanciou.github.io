@@ -25,8 +25,9 @@ body {
 }
 
 .profile-card:hover {
+  -webkit-transition: transform 0.5s ease-in-out; /* slowly scale up */
   background-color: rgba(15, 24, 30, 0.4);
-  transform: scale(1.05); /*rotate(0deg);*/
+  transform: scale(1.1); /*rotate(0deg);*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,11 +39,11 @@ body {
 .pic {
   display: inline-block;
   padding: 8px;
-  background: linear-gradient(130deg, #74b9ff, #e66767);
+  background: linear-gradient(120deg, #d5e08bec, #f1045ba9);
   margin: auto;
   border-radius: 50%;
   background-size: 200% 200%;
-  animation: animated-gradient 2s linear infinite;
+  animation: animated-gradient 1.5s linear infinite;
   transform: translateY(-10%);
 }
 
@@ -83,7 +84,7 @@ body {
 .sm {
   display: flex;
   justify-content: center;
-  margin: 30px 0px 10px 0px;
+  margin: 30px 0px 20px 0px;
 }
 
 .sm a {
@@ -100,13 +101,14 @@ body {
 .contact-btn {
   /* calendar added */
   display: inline-flex;
-  padding: 10px 16px;
+  padding: 10px 10px 10px 10px;
   justify-content: center;
   color: #e66767;
   border: 2px solid #e66767;
   border-radius: 6px;
-  margin: 25px 6px 0px 6px;
+  margin: 20px 4px 0px 4px;
   transition: 0.3s linear;
+  font-size: 16px;
 }
 
 .contact-btn:hover {
